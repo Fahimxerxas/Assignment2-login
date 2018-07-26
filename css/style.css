@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+}
+body{
+	background: url(../images/im-1.jpg);
+	background-size: cover;
+}
+.container{
+	width: 325px;
+	margin: 170px 800px ;
+}
+.login img{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-top: -75px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+
+}
+.login h3{
+	text-align: center;
+	color: #00a1ea;
+	text-decoration-line: underline;
+	margin: 5px auto;
+
+}
+.login{
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	border-radius: 10px;
+
+}
+
+.txt-field{
+	padding: 10px;
+	margin: 10px;
+	width: 250px;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: limegreen;
+
+}
+.submit{
+	display: block;
+	margin: 10px auto;
+	padding: 8px 20px;
+	color: white;
+	background-color: red;
+	border: none;
+	transition: 0.4s;
+	border-radius: 30px;
+
+}
+.submit:hover{
+	cursor: pointer;
+	background-color: limegreen;
+	box-shadow: 2px 2px 2px 2px;
+}
+a:link{
+	color:red;
+	text-decoration:underline;
+}
+a:hover{
+	color: yellow;
+	text-decoration:underline;
+}
+a:visited{
+	color:limegreen;
+	text-decoration: underline;
+}
+a:active{
+	color:blue;
+	text-decoration: underline;
+}
+.txt{
+	width: 610px;
+	margin: -380px 25px;
+	padding: 40px;
+	color: white;
+	font-family: 'Merienda', cursive;
+	text-decoration: underline;
+
+}
